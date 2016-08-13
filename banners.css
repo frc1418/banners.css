@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Adam';
+    src: url('adam.otf') format('opentype');
+    unicode-range: U+0000-00FF;
+}
+/* To be standard-compliant, this rule should be applied to *, but for compat it's restricted here. */
+.banners,
+.banners *,
+.banner {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banners {
+    display: block;
+    height: 200px;
+    padding: 0;
+}
+.banner-parent {
+    width: 100vw;
+    overflow: scroll;
+}
+.banner-parent .banners {
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+.banners li,
+.banner {
+    line-height: 1.2;
+    font-family: 'Adam', sans-serif;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 3px 30px;
+    width: 120px;
+    position: relative;
+    background: #0f4bcb;
+    color: white;
+    padding: 10px;
+    white-space: normal;
+}
+.banners img,
+.banner img {
+    width: 75px;
+    margin-bottom: 5px;
+}
+.banners li:after,
+.banner:after {
+    content: '';
+    position: absolute;
+    display: block;
+    border: 60px solid #0f4bcb;
+    border-top-width: 5px;
+    border-bottom: 20px transparent solid;
+    top: 100%;
+    left: 0;
+}
+.banners li,
+.banners li:after,
+.banner,
+.banner:after {
+    -webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, .1));
+}

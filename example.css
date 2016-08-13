@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 5px;
+    overflow-x: hidden;
+    width: 100vw;
+}
+h1 {
+    text-align: center;
+    color: #0f4bcb;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
