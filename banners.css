@@ -11,19 +11,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.banners {
-    display: block;
-    height: 200px;
-    padding: 0;
-}
 .banner-parent {
-    width: 100vw;
+    width: 100%;
     overflow: scroll;
 }
 .banner-parent .banners {
     width: auto;
-    text-align: center;
-    margin: 0 auto;
     white-space: nowrap;
 }
 .banners li,
@@ -39,7 +32,7 @@
     background: #0f4bcb;
     color: white;
     padding: 10px;
-    white-space: normal;
+    white-space: normal
 }
 .banners img,
 .banner img {
@@ -62,4 +55,7 @@
 .banner,
 .banner:after {
     -webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, .1));
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur in="SourceAlpha" stdDeviation="5" /><feOffset dx="1" dy="11" result="offsetblur" /><feFlood flood-color="rgba(0,0,0,0.1)" /><feComposite in2="offsetblur" operator="in" /><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter></svg>#filter');
+    -webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, .1));
+            filter: drop-shadow(0 10px 5px rgba(0, 0, 0, .1));
 }
