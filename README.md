@@ -5,7 +5,7 @@ banners.css is a simple CSS preset to allow easy creation of simulated [FRC](htt
 This framework allows for three different types of banners:
 
 ### Row
-To define a group of banners:
+To define a group of banners:  
 1. Create a `<ul>` with the class of `banners`. Each `<li>` in the list will be turned into a banner.  
 2. OPTIONAL: Insert an `<img>` at the starting of each `<li>` with the `src` pointing to the `first.svg` file  included in this repository. This will put a FIRST logo on the banner. This can be done for all three methods of declaring a banner.  
 3. Fill the rest of each `<li>` with the name of the award. Well, technically, you can put any content you want in it. But the name of the award is probably best.
