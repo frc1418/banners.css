@@ -1,6 +1,6 @@
 # banners.css
 ![Screenshot](screenshot.png)
-banners.css is a simple CSS preset to allow easy creation of simulated [FRC](http://firstinspires.org/robotics/frc) blue banners (typically awarded to teams upon receiving a competition award.)
+banners.css is a simple CSS preset to allow easy creation of simulated [FRC](http://firstinspires.org/robotics/frc) blue banners (typically presented to teams upon receiving a competition award.)
 
 This framework allows for three different types of banners:
 
@@ -17,8 +17,10 @@ Repeat the above process, except instead of defining a `<ul>` with `<li>`s as ch
 Repeat the first process exactly, however with one extra step: enclose the `<ul>` with a `<div>` with the class `banner-parent`. This will cause the row of banners to expand to fill the whole width of the screen, and any extra banners will be visible by scrolling to the side.
 
 ## Examples
-* [Team 1418's website](http://1418.team)
 * See `example.html`
+* [Team 1418's website](http://1418.team)
+* [Team 1257's awards page](http://team1257.org/#awards)
+* [Team 3492's about page](http://parts3492.org/about/)
 
 If you use this framework on your own project, feel free to open a pull request to add it to this list!
 

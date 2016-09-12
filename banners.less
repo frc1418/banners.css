@@ -1,0 +1,89 @@
+@blue: #0f4bcb;
+
+
+@font-face {
+	font-family: 'Adam';
+	src: url('adam.otf') format('opentype');
+	unicode-range: U+0000-00FF;
+}
+.banners {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		background: @blue;
+		color: white;
+		display: inline-block;
+		font-family: 'Adam', sans-serif;
+		line-height: 1.2;
+		margin: 0 3px 30px;
+		padding: 10px;
+		position: relative;
+		text-align: center;
+		vertical-align: top;
+		white-space: normal;
+		width: 120px;
+		&:after {
+			border-bottom: 20px transparent solid;
+			border-top-width: 5px;
+			border: 60px solid @color0;
+			content: '';
+			display: block;
+			left: 0;
+			position: absolute;
+			top: 100%;
+		}
+	}
+	img {
+		margin-bottom: 5px;
+		width: 75px;
+	}
+}
+.banner {
+	background: @color0;
+	box-sizing: border-box;
+	color: white;
+	display: inline-block;
+	font-family: 'Adam', sans-serif;
+	line-height: 1.2;
+	margin: 0;
+	margin: 0 3px 30px;
+	padding: 0;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	vertical-align: top;
+	white-space: normal;
+	width: 120px;
+	img {
+		margin-bottom: 5px;
+		width: 75px;
+	}
+	&:after {
+		border-bottom: 20px transparent solid;
+		border-top-width: 5px;
+		border: 60px solid @blue;
+		content: '';
+		display: block;
+		left: 0;
+		position: absolute;
+		top: 100%;
+	}
+}
+.banner-parent {
+	overflow: scroll;
+	width: 100%;
+	.banners {
+		white-space: nowrap;
+		width: auto;
+	}
+}
+.banners li, .banners li:after, .banner, .banner:after  {
+	-webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, .1));
+	filter: drop-shadow(0 10px 5px rgba(0, 0, 0, .1));
+}

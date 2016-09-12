@@ -1,0 +1,60 @@
+@charset  'utf-8'
+
+$blue: #0f4bcb
+
+@font-face
+  font-family: 'Adam'
+  src: url('adam.otf') format("opentype")
+  unicode-range: U+0000-00FF
+
+// To be standard-compliant, this rule should be applied to *, but for compat it's restricted here.
+.banners, .banners *, .banner
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+.banner-parent
+  width: 100%
+  overflow: scroll
+  .banners
+    width: auto
+    white-space: nowrap
+
+.banners li, .banner
+  line-height: 1.2
+  font-family: 'Adam', sans-serif
+  text-align: center
+  vertical-align: top
+  display: inline-block
+  margin: 0 3px 30px
+  width: 120px
+  position: relative
+  background: $blue
+  color: white
+  padding: 10px
+  white-space: normal
+
+.banners img, .banner img
+  width: 75px
+  margin-bottom: 5px
+
+.banners li:after, .banner:after
+  content: ''
+  position: absolute
+  display: block
+  border: 60px solid $blue
+  border-top-width: 5px
+  border-bottom: 20px transparent solid
+  top: 100%
+  left: 0
+
+.banners li, .banner
+  -webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1))
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur in="SourceAlpha" stdDeviation="5" /><feOffset dx="1" dy="11" result="offsetblur" /><feFlood flood-color="rgba(0,0,0,0.1)" /><feComposite in2="offsetblur" operator="in" /><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter></svg>#filter')
+  -webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1))
+  filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1))
+  &:after
+    -webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1))
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur in="SourceAlpha" stdDeviation="5" /><feOffset dx="1" dy="11" result="offsetblur" /><feFlood flood-color="rgba(0,0,0,0.1)" /><feComposite in2="offsetblur" operator="in" /><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter></svg>#filter')
+    -webkit-filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1))
+    filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.1))
