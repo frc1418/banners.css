@@ -21,7 +21,7 @@ Repeat the first process exactly, however with one extra step: enclose the `<ul>
 * [Team 1418's website](http://1418.team)
 * [Team 1257's awards page](http://team1257.org/#awards)
 * [Team 3492's about page](http://parts3492.org/about/)
-* [Team](http://www.thebluealliance.com/team/254/2014) and [Team History](http://www.thebluealliance.com/team/254/history) pages on The Blue Alliance
+* [Team](http://www.thebluealliance.com/team/254/2014) and [Team History](http://www.thebluealliance.com/team/254/history) pages on The Blue Alliance (heavily modified, but based off this framework)
 
 If you use this framework on your own project, feel free to open a pull request to add it to this list!
 
