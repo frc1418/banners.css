@@ -1,8 +1,11 @@
 # banners.css
 ![Screenshot](screenshot.png)
-banners.css is a simple CSS preset to allow easy creation of simulated [FRC](http://firstinspires.org/robotics/frc) blue banners (typically presented to teams upon receiving a competition award.)
+banners.css is a simple CSS preset to allow easy creation of simulated [FRC](http://firstinspires.org/robotics/frc) blue banners (typically presented to teams upon receiving a competition award).
 
-This framework allows for three different types of banners:
+It is most famously used on [The Blue Alliance](https://thebluealliance.com), to show awards a team has won.
+
+## Instructions
+This framework allows for three different types of banner markup:
 
 ### Row
 To define a group of banners:  
@@ -18,10 +21,10 @@ Repeat the first process exactly, however with one extra step: enclose the `<ul>
 
 ## Examples
 * See `example.html`
+* [Team](http://www.thebluealliance.com/team/254/2014) and [Team History](http://www.thebluealliance.com/team/254/history) pages on The Blue Alliance (heavily modified, but based off this framework)
 * [Team 1418's website](http://1418.team)
 * [Team 1257's awards page](http://team1257.org/#awards)
 * [Team 3492's about page](http://parts3492.org/about/)
-* [Team](http://www.thebluealliance.com/team/254/2014) and [Team History](http://www.thebluealliance.com/team/254/history) pages on The Blue Alliance (heavily modified, but based off this framework)
 
 If you use this framework on your own project, feel free to open a pull request to add it to this list!
 
