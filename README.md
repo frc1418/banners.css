@@ -32,4 +32,4 @@ If you use this framework on your own project, feel free to open a pull request 
 Created by [Erik Boesen](https://github.com/ErikBoesen). To ensure future maintenance, control is vested in [Team 1418](https://github.com/frc1418), for whose [website](http://1418.team) the library was originally developed.
 
 ## License
-This software is protected under the CC-0 license. Do anything you want with it. I'd love if you gave me credit, but you don't have to if you really don't want to.
+This software is protected under the [MIT License](LICENSE).
