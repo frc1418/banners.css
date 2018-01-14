@@ -1,8 +1,8 @@
 # banners.css
 ![Screenshot](screenshot.png)
-banners.css is a simple CSS preset to allow easy creation of simulated [FRC](http://firstinspires.org/robotics/frc) blue banners (typically presented to teams upon receiving a competition award).
+> Simple CSS library for simlated [FRC](http://firstinspires.org/robotics/frc) blue banners (typically presented to teams upon receiving a competition award).
 
-It is most famously used on [The Blue Alliance](https://thebluealliance.com), to show awards a team has won.
+[As seen on The Blue Alliance!](thebluealliance.com/team/254/history)
 
 ## Instructions
 This framework allows for three different types of banner markup:
