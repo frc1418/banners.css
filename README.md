@@ -2,15 +2,15 @@
 ![Screenshot](screenshot.png)
 > Simple CSS library for simlated [FRC](http://firstinspires.org/robotics/frc) blue banners (typically presented to teams upon receiving a competition award).
 
-[As seen on The Blue Alliance!](thebluealliance.com/team/254/history)
+[As seen on The Blue Alliance!](https://www.thebluealliance.com/team/254/history)
 
 ## Instructions
 This framework allows for three different types of banner markup:
 
 ### Row
-To define a group of banners:  
-1. Create a `<ul>` with the class of `banners`. Each `<li>` in the list will be turned into a banner.  
-2. OPTIONAL: Insert an `<img>` at the starting of each `<li>` with the `src` pointing to the `first.svg` file  included in this repository. This will put a FIRST logo on the banner. This can be done for all three methods of declaring a banner.  
+To define a group of banners:
+1. Create a `<ul>` with the class of `banners`. Each `<li>` in the list will be turned into a banner.
+2. OPTIONAL: Insert an `<img>` at the starting of each `<li>` with the `src` pointing to the `first.svg` file  included in this repository. This will put a FIRST logo on the banner. This can be done for all three methods of declaring a banner.
 3. Fill the rest of each `<li>` with the name of the award. Well, technically, you can put any content you want in it. But the name of the award is probably best.
 
 ### Individual banner
